@@ -1,0 +1,307 @@
+14:35:54 **** Incremental Build of configuration Debug for project a14 ****
+make all 
+Building file: ../a14.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a14.d" -MT"a14.o" -o "a14.o" "../a14.c"
+../a14.c:12:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+   12 | void main()
+      |      ^~~~
+Finished building: ../a14.c
+ 
+Building target: a14
+Invoking: GCC C Linker
+gcc  -o "a14"  ./a14.o   
+Finished building target: a14
+ 
+14:35:57 **** Incremental Build of configuration Debug for project a14 ****
+make all 
+make: Nothing to be done for 'all'.
+14:36:59 **** Incremental Build of configuration Debug for project a14 ****
+make all 
+make: Nothing to be done for 'all'.
+14:37:16 **** Incremental Build of configuration Debug for project a14 ****
+make all 
+make: Nothing to be done for 'all'.
+14:38:17 **** Incremental Build of configuration Debug for project a14 ****
+make all 
+make: Nothing to be done for 'all'.
+14:38:53 **** Incremental Build of configuration Debug for project a14 ****
+make all 
+make: Nothing to be done for 'all'.
+14:39:16 **** Incremental Build of configuration Debug for project a14 ****
+make all 
+make: Nothing to be done for 'all'.
+14:39:29 **** Incremental Build of configuration Debug for project a14 ****
+make all 
+make: Nothing to be done for 'all'.
+14:39:33 **** Incremental Build of configuration Debug for project a14 ****
+make all 
+make: Nothing to be done for 'all'.
+14:39:39 **** Incremental Build of configuration Debug for project a14 ****
+make all 
+make: Nothing to be done for 'all'.
+14:40:33 **** Incremental Build of configuration Debug for project a14 ****
+make all 
+make: Nothing to be done for 'all'.
+14:41:07 **** Incremental Build of configuration Debug for project a14 ****
+make all 
+make: Nothing to be done for 'all'.
+14:41:42 **** Incremental Build of configuration Debug for project a14 ****
+make all 
+make: Nothing to be done for 'all'.
+14:48:13 **** Incremental Build of configuration Debug for project a15 ****
+make all 
+Building file: ../a15.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a15.d" -MT"a15.o" -o "a15.o" "../a15.c"
+../a15.c:13:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+   13 | void main()
+      |      ^~~~
+Finished building: ../a15.c
+ 
+Building target: a15
+Invoking: GCC C Linker
+gcc  -o "a15"  ./a15.o   
+Finished building target: a15
+ 
+15:14:01 **** Build of configuration Debug for project a16 ****
+make all 
+Building file: ../a16.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a16.d" -MT"a16.o" -o "a16.o" "../a16.c"
+../a16.c:16:7: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+   16 | void  main()
+      |       ^~~~
+Finished building: ../a16.c
+ 
+Building target: a16
+Invoking: GCC C Linker
+gcc  -o "a16"  ./a16.o   
+Finished building target: a16
+ 
+15:14:48 **** Incremental Build of configuration Debug for project a16 ****
+make all 
+Building file: ../a16.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a16.d" -MT"a16.o" -o "a16.o" "../a16.c"
+../a16.c:16:7: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+   16 | void  main()
+      |       ^~~~
+Finished building: ../a16.c
+ 
+Building target: a16
+Invoking: GCC C Linker
+gcc  -o "a16"  ./a16.o   
+Finished building target: a16
+ 
+15:15:43 **** Incremental Build of configuration Debug for project a16 ****
+make all 
+Building file: ../a16.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a16.d" -MT"a16.o" -o "a16.o" "../a16.c"
+../a16.c:16:7: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+   16 | void  main()
+      |       ^~~~
+Finished building: ../a16.c
+ 
+Building target: a16
+Invoking: GCC C Linker
+gcc  -o "a16"  ./a16.o   
+Finished building target: a16
+ 
+15:16:12 **** Incremental Build of configuration Debug for project a16 ****
+make all 
+Building file: ../a16.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a16.d" -MT"a16.o" -o "a16.o" "../a16.c"
+../a16.c:17:7: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+   17 | void  main()
+      |       ^~~~
+Finished building: ../a16.c
+ 
+Building target: a16
+Invoking: GCC C Linker
+gcc  -o "a16"  ./a16.o   
+Finished building target: a16
+ 
+15:16:46 **** Incremental Build of configuration Debug for project a16 ****
+make all 
+Building file: ../a16.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a16.d" -MT"a16.o" -o "a16.o" "../a16.c"
+../a16.c:17:7: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+   17 | void  main()
+      |       ^~~~
+../a16.c: In function ‘main’:
+../a16.c:28:8: warning: passing argument 1 of ‘push’ makes pointer from integer without a cast [-Wint-conversion]
+   28 |   push(pop1());
+      |        ^~~~~~
+      |        |
+      |        char
+../a16.c:12:17: note: expected ‘char *’ but argument is of type ‘char’
+   12 | void push(char *val)
+      |           ~~~~~~^~~
+../a16.c:30:8: warning: passing argument 1 of ‘push’ makes pointer from integer without a cast [-Wint-conversion]
+   30 |   push(pop2());
+      |        ^~~~~~
+      |        |
+      |        char
+../a16.c:12:17: note: expected ‘char *’ but argument is of type ‘char’
+   12 | void push(char *val)
+      |           ~~~~~~^~~
+Finished building: ../a16.c
+ 
+Building target: a16
+Invoking: GCC C Linker
+gcc  -o "a16"  ./a16.o   
+Finished building target: a16
+ 
+15:18:09 **** Incremental Build of configuration Debug for project a16 ****
+make all 
+Building file: ../a16.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a16.d" -MT"a16.o" -o "a16.o" "../a16.c"
+../a16.c:17:7: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+   17 | void  main()
+      |       ^~~~
+Finished building: ../a16.c
+ 
+Building target: a16
+Invoking: GCC C Linker
+gcc  -o "a16"  ./a16.o   
+Finished building target: a16
+ 
+15:23:33 **** Incremental Build of configuration Debug for project a16 ****
+make all 
+Building file: ../a16.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a16.d" -MT"a16.o" -o "a16.o" "../a16.c"
+../a16.c:12:7: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+   12 | void  main()
+      |       ^~~~
+Finished building: ../a16.c
+ 
+Building target: a16
+Invoking: GCC C Linker
+gcc  -o "a16"  ./a16.o   
+Finished building target: a16
+ 
+15:24:25 **** Incremental Build of configuration Debug for project a16 ****
+make all 
+Building file: ../a16.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a16.d" -MT"a16.o" -o "a16.o" "../a16.c"
+../a16.c:15:7: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+   15 | void  main()
+      |       ^~~~
+Finished building: ../a16.c
+ 
+Building target: a16
+Invoking: GCC C Linker
+gcc  -o "a16"  ./a16.o   
+Finished building target: a16
+ 
+15:24:58 **** Incremental Build of configuration Debug for project a16 ****
+make all 
+Building file: ../a16.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a16.d" -MT"a16.o" -o "a16.o" "../a16.c"
+../a16.c:15:7: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+   15 | void  main()
+      |       ^~~~
+Finished building: ../a16.c
+ 
+Building target: a16
+Invoking: GCC C Linker
+gcc  -o "a16"  ./a16.o   
+Finished building target: a16
+ 
+15:25:20 **** Incremental Build of configuration Debug for project a16 ****
+make all 
+Building file: ../a16.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a16.d" -MT"a16.o" -o "a16.o" "../a16.c"
+../a16.c:15:7: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+   15 | void  main()
+      |       ^~~~
+Finished building: ../a16.c
+ 
+Building target: a16
+Invoking: GCC C Linker
+gcc  -o "a16"  ./a16.o   
+Finished building target: a16
+ 
+15:25:51 **** Incremental Build of configuration Debug for project a16 ****
+make all 
+Building file: ../a16.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a16.d" -MT"a16.o" -o "a16.o" "../a16.c"
+../a16.c:15:7: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+   15 | void  main()
+      |       ^~~~
+Finished building: ../a16.c
+ 
+Building target: a16
+Invoking: GCC C Linker
+gcc  -o "a16"  ./a16.o   
+Finished building target: a16
+ 
+15:45:39 **** Incremental Build of configuration Debug for project a16 ****
+make all 
+Building file: ../a16.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a16.d" -MT"a16.o" -o "a16.o" "../a16.c"
+../a16.c:15:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+   15 | void main()
+      |      ^~~~
+Finished building: ../a16.c
+ 
+Building target: a16
+Invoking: GCC C Linker
+gcc  -o "a16"  ./a16.o   
+Finished building target: a16
+ 
+15:50:16 **** Incremental Build of configuration Debug for project a16 ****
+make all 
+Building file: ../a16.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a16.d" -MT"a16.o" -o "a16.o" "../a16.c"
+../a16.c:12:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+   12 | void main()
+      |      ^~~~
+Finished building: ../a16.c
+ 
+Building target: a16
+Invoking: GCC C Linker
+gcc  -o "a16"  ./a16.o   
+Finished building target: a16
+ 
+15:53:19 **** Build of configuration Debug for project a15 ****
+make all 
+Building file: ../a15.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a15.d" -MT"a15.o" -o "a15.o" "../a15.c"
+../a15.c:13:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+   13 | void main()
+      |      ^~~~
+../a15.c: In function ‘main’:
+../a15.c:45:11: error: expected expression before ‘int’
+   45 |      push(int(temp));
+      |           ^~~
+make: *** [subdir.mk:20: a15.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:54:27 **** Incremental Build of configuration Debug for project a16 ****
+make all 
+Building file: ../a16.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a16.d" -MT"a16.o" -o "a16.o" "../a16.c"
+../a16.c:12:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+   12 | void main()
+      |      ^~~~
+Finished building: ../a16.c
+ 
+Building target: a16
+Invoking: GCC C Linker
+gcc  -o "a16"  ./a16.o   
+Finished building target: a16
+ 

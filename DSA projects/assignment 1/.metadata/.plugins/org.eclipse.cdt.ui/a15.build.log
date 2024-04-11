@@ -1,0 +1,17 @@
+15:53:19 **** Build of configuration Debug for project a15 ****
+make all 
+Building file: ../a15.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a15.d" -MT"a15.o" -o "a15.o" "../a15.c"
+../a15.c:13:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+   13 | void main()
+      |      ^~~~
+../a15.c: In function ‘main’:
+../a15.c:45:11: error: expected expression before ‘int’
+   45 |      push(int(temp));
+      |           ^~~
+make: *** [subdir.mk:20: a15.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+15:53:19 Build Failed. 2 errors, 1 warnings. (took 177ms)
+

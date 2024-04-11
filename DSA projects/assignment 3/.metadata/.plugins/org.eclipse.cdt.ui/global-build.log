@@ -1,0 +1,22 @@
+14:06:51 **** Rebuild of configuration Debug for project a9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o a9.o ../a9.c 
+../a9.c: In function ‘display’:
+../a9.c:31:6: warning: unused variable ‘i’ [-Wunused-variable]
+   31 |  int i=1;
+      |      ^
+../a9.c: At top level:
+../a9.c:38:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+   38 | void main()
+      |      ^~~~
+gcc -o a9 a9.o 
+Info: Nothing to build for a9
+15:25:23 **** Build of configuration Debug for project a5 ****
+make all 
+make: Nothing to be done for 'all'.
+15:25:29 **** Incremental Build of configuration Debug for project a5 ****
+make all 
+make: Nothing to be done for 'all'.
+15:25:51 **** Incremental Build of configuration Debug for project a5 ****
+make all 
+make: Nothing to be done for 'all'.

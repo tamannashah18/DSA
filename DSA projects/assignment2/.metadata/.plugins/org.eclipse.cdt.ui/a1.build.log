@@ -1,0 +1,30 @@
+16:03:31 **** Incremental Build of configuration Debug for project a1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o a1.o ../a1.c 
+../a1.c: In function ‘enqueue’:
+../a1.c:14:3: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
+   14 |   display();
+      |   ^~~~~~~
+../a1.c: At top level:
+../a1.c:29:6: warning: conflicting types for ‘display’
+   29 | void display()
+      |      ^~~~~~~
+../a1.c:14:3: note: previous implicit declaration of ‘display’ was here
+   14 |   display();
+      |   ^~~~~~~
+../a1.c:41:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+   41 | void main()
+      |      ^~~~
+../a1.c: In function ‘main’:
+../a1.c:65:5: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+   65 |     exit(0);
+      |     ^~~~
+../a1.c:65:5: warning: incompatible implicit declaration of built-in function ‘exit’
+../a1.c:2:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+    1 | #include<stdio.h>
+  +++ |+#include <stdlib.h>
+    2 | int n,q[20],f=-1,r=-1,val;
+gcc -o a1 a1.o 
+
+16:03:32 Build Finished. 0 errors, 5 warnings. (took 327ms)
+

@@ -1,0 +1,18 @@
+14:05:50 **** Incremental Build of configuration Debug for project a10 ****
+make all 
+Building file: ../a10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a10.d" -MT"a10.o" -o "a10.o" "../a10.c"
+../a10.c:183:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+  183 | void main()
+      |      ^~~~
+Finished building: ../a10.c
+ 
+Building target: a10
+Invoking: GCC C Linker
+gcc  -o "a10"  ./a10.o   
+Finished building target: a10
+ 
+
+14:05:50 Build Finished. 0 errors, 1 warnings. (took 162ms)
+

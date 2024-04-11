@@ -1,0 +1,38 @@
+13:39:23 **** Incremental Build of configuration Debug for project a5 ****
+make all 
+Building file: ../a5.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"a5.d" -MT"a5.o" -o "a5.o" "../a5.c"
+../a5.c: In function ‘enqueue’:
+../a5.c:17:3: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
+   17 |   display();
+      |   ^~~~~~~
+../a5.c: At top level:
+../a5.c:32:6: warning: conflicting types for ‘display’
+   32 | void display()
+      |      ^~~~~~~
+../a5.c:17:3: note: previous implicit declaration of ‘display’ was here
+   17 |   display();
+      |   ^~~~~~~
+../a5.c:47:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+   47 | void main()
+      |      ^~~~
+../a5.c: In function ‘main’:
+../a5.c:71:5: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+   71 |     exit(0);
+      |     ^~~~
+../a5.c:71:5: warning: incompatible implicit declaration of built-in function ‘exit’
+../a5.c:2:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+    1 | #include<stdio.h>
+  +++ |+#include <stdlib.h>
+    2 | int n,q[20],f=-1,r=-1,val;
+Finished building: ../a5.c
+ 
+Building target: a5
+Invoking: GCC C Linker
+gcc  -o "a5"  ./a5.o   
+Finished building target: a5
+ 
+
+13:39:23 Build Finished. 0 errors, 5 warnings. (took 166ms)
+
